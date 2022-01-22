@@ -17,34 +17,34 @@ body {
   text-align: center;
 }
 /* [02] styles of four cards section */
-section.four-cards {
-  padding: 50px 0;
+header {
+  margin-top: 80px;
 }
-section.four-cards header h3 {
+header p:first-child {
   font-weight: 200;
   font-size: 33px;
   color: hsl(234, 12%, 34%);
 }
-section.four-cards header h1 {
+header h1 {
   font-weight: 600;
   font-size: 33px;
   margin-bottom: 10px;
   color: hsl(234, 12%, 34%);
 }
-section.four-cards header p {
+header p:last-child {
   width: 60%;
   margin: auto;
-  font-size: 13px;
+  font-size: 14px;
   color: hsl(229, 6%, 66%);
   line-height: 1.6;
 }
 @media (max-width: 575px) {
-  section.four-cards header h3,
-  section.four-cards header h1 {
+  header p:first-child,
+  header h1 {
     font-size: 23px;
   }
-  section.four-cards header p {
-    font-size: 14px;
+  header p:last-child {
+    font-size: 15px;
   }
 }
 /* [03] styles for cards-container */
@@ -94,7 +94,7 @@ section.four-cards header p {
   border-top-color: hsl(212, 86%, 64%);
 }
 @media (min-width: 768px) {
-  section.four-cards header p {
+  header p:last-child {
     width: 500px;
     max-width: 100%;
     padding: 0 12px;
